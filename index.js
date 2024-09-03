@@ -6,5 +6,8 @@ const id = "123";
 
 const marks = "89/100";
 const isAdult = () => {
-    return age >= 18;
+    if (age >= 18)
+        return true;
+    else
+        return false;
 }
